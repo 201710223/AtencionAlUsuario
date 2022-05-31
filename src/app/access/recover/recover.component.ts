@@ -12,7 +12,7 @@ export class RecoverComponent implements OnInit {
 
   inicializaDatos(){
     this.datos = new FormGroup({
-      user: new FormControl('',[Validators.required, Validators.email]),
+      nombre: new FormControl('',[Validators.required, Validators.email]),
       password: new FormControl('')
     })
   }
