@@ -18,6 +18,10 @@ import { NotificationsComponent } from './notifications/notifications.component'
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    NavBarComponent,
+    LogoComponent
   ]
 })
 export class HomeModule { }
