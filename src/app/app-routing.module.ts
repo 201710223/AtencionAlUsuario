@@ -10,7 +10,7 @@ import { NuevaSolicitudComponent } from './solicitud/nueva-solicitud/nueva-solic
 const routes: Routes = [
   { path:'register', component:RegisterComponent },
   { path:'recover', component:RecoverComponent },
-  { path:'home', component:LogoComponent }
+  { path:'home', component:LogoComponent },
   { path:'ver-solicitud', component:VerSolicitudComponent},
   { path:'actualizar-solicitud', component:ActualizarSolicitudComponent},
   {path:'nuevasolicitud', component:NuevaSolicitudComponent}

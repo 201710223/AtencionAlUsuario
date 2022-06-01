@@ -14,6 +14,11 @@ import { ActualizarSolicitudComponent } from './actualizar-solicitud/actualizar-
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    VerSolicitudComponent,
+    NuevaSolicitudComponent,
+    ActualizarSolicitudComponent   
   ]
 })
 export class SolicitudModule { }
