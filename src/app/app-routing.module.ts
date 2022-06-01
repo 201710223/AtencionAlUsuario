@@ -13,7 +13,7 @@ const routes: Routes = [
   { path:'home', component:LogoComponent },
   { path:'ver-solicitud', component:VerSolicitudComponent},
   { path:'actualizar-solicitud', component:ActualizarSolicitudComponent},
-  {path:'nuevasolicitud', component:NuevaSolicitudComponent}
+  { path:'nuevasolicitud', component:NuevaSolicitudComponent}
 ];
 
 @NgModule({
