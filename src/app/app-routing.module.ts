@@ -6,6 +6,7 @@ import { LogoComponent } from './home/logo/logo.component';
 import { VerSolicitudComponent } from './solicitud/ver-solicitud/ver-solicitud.component'
 import { ActualizarSolicitudComponent } from './solicitud/actualizar-solicitud/actualizar-solicitud.component'
 import { NuevaSolicitudComponent } from './solicitud/nueva-solicitud/nueva-solicitud.component'
+import { UserComponent } from './login/user/user.component';
 
 const routes: Routes = [
   { path:'register', component:RegisterComponent },
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path:'home', component:LogoComponent },
   { path:'ver-solicitud', component:VerSolicitudComponent},
   { path:'actualizar-solicitud', component:ActualizarSolicitudComponent},
-  { path:'nuevasolicitud', component:NuevaSolicitudComponent}
+  { path:'nuevasolicitud', component:NuevaSolicitudComponent},
+  { path:'login', component:UserComponent},
 ];
 
 @NgModule({
