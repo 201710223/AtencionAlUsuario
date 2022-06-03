@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-03T04:02:42.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="A3gClmhu8gJBoV2-wdHF" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-03T04:04:25.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="-6rC2CtNPsvo95hPRda0" version="18.2.1" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1020" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -87,6 +87,21 @@
         </mxCell>
         <mxCell id="-0gBYxAiiuX7f4nxkeiU-1" value="Informe" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="860" y="160" width="220" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="u3owoKfvK3tmXMBZnVkM-23" value="&lt;div style=&quot;&quot;&gt;FK&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Folio&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;INT&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-0gBYxAiiuX7f4nxkeiU-1">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u3owoKfvK3tmXMBZnVkM-24" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Folio_Usuario&lt;/span&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt; VARCHAR(5)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-0gBYxAiiuX7f4nxkeiU-1">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u3owoKfvK3tmXMBZnVkM-25" value="Nombre&amp;nbsp; VARCHAR (50)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-0gBYxAiiuX7f4nxkeiU-1">
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u3owoKfvK3tmXMBZnVkM-26" value="Status&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;CHAR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-0gBYxAiiuX7f4nxkeiU-1">
+          <mxGeometry y="104" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u3owoKfvK3tmXMBZnVkM-27" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;ID_Agente&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;VARCHAR(5)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-0gBYxAiiuX7f4nxkeiU-1">
+          <mxGeometry y="130" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="MW6UIU1s70_hb1hz5P5l-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.002;exitY=0.851;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="MW6UIU1s70_hb1hz5P5l-1" target="78961159f06e98e8-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
