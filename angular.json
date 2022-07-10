@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Practica1": {
+    "AtencionAlUsuario": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/practica1",
+            "outputPath": "dist/atencion-al-usuario",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Practica1:build:production"
+              "browserTarget": "AtencionAlUsuario:build:production"
             },
             "development": {
-              "browserTarget": "Practica1:build:development"
+              "browserTarget": "AtencionAlUsuario:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Practica1:build"
+            "browserTarget": "AtencionAlUsuario:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "Practica1"
+  "defaultProject": "AtencionAlUsuario"
 }
